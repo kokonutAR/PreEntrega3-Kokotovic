@@ -38,7 +38,7 @@ nav .redes-nav{
 body{
     background-color: rgb(241, 237, 231);
 }
-header{
+.css{
     background-image: url(../images/Fondo-pizza.jpg);
     background-size: cover;
     width: 100%;
@@ -271,4 +271,32 @@ main section div h2{
 }
 .form-tarjeta{
     display: grid;
+}
+.form-contacto{
+    width:500px;
+    margin: auto;
+}
+.contenedor-img img{
+    transition: 1s;
+    transform: translate(10px,10px);
+    padding: 10px;  
+}
+.logo-animado{
+    animation-duration: 5s;
+    animation-name: LogoLoop;
+    animation-iteration-count: infinite;
+   }
+ @keyframes LogoLoop{
+    from{
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } 
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+    }
 }
