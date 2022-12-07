@@ -1,0 +1,44 @@
+.galeria-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    padding-bottom: 80px;
+}
+.galeria-nosotros img:nth-child(1){
+border-radius: 10px;
+}
+.galeria-nosotros img:nth-child(2){
+    width: 40%;
+    border-radius: 10px;
+}
+.galeria-nosotros img:nth-child(3){
+    border-radius: 10px;
+}
+.galeria-nosotros h3{
+    margin-top: 200px;
+    margin: 100px;
+}
+.preguntas-respuestas{
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 100px;
+}
+.galeria-nosotros2{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.galeria-nosotros2 img:nth-child(1){
+    border-radius: 10px;
+}
+.galeria-nosotros2 img:nth-child(2){
+    border-radius: 10px;
+}
+.galeria-nosotros2 img:nth-child(3){
+    border-radius: 10px;
+}

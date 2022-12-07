@@ -1,0 +1,30 @@
+footer{
+    background-color: bisque;
+    display: flex;
+    padding: 10px 10px;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    font-family: roboto;
+        ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+            li a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            transition: 0.5;
+            }
+        }
+}
+.footer-redes{
+    padding-right: 10px;
+}
+.footer-telefono{
+    padding-left: 30px;
+    font-size: x-large;
+}
+.footer-ubicacion{
+    font-size: x-large;
+}

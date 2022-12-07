@@ -1,0 +1,22 @@
+.main-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario-contactos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.formulario-contactos label input{
+    background-color: bisque;
+    outline: none;
+    border: none;
+}
+.formulario-contactos button{
+    width: 5%;
+    margin: 10px;
+}
+.info-contacto{
+    margin: 50px;
+}

@@ -1,0 +1,43 @@
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: space-evenly;
+}
+.tarjeta{
+    background-color: rgba(45, 133, 45, 0.411);
+    width: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto;
+
+}
+.tarjeta__titulo{
+    text-align: center;
+}
+.tarjeta__texto{
+    text-align: center;
+}
+.tarjeta__imagen{
+    width: 80%;
+    margin: 25px;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 50%;
+}
+.galeria-nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    padding-bottom: 80px;
+}

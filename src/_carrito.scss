@@ -1,0 +1,52 @@
+.main-carrito{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mapa-carrito{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.info-entrega{
+    list-style-type: none;
+}
+.info-entrega-grid{
+    display: grid;
+}
+.form-tarjeta-ul{
+    list-style-type: none;
+}
+.form-tarjeta{
+    display: grid;
+}
+.form-contacto{
+    width:500px;
+    margin: auto;
+}
+.contenedor-img img{
+    transition: 1s;
+    transform: translate(10px,10px);
+    padding: 10px;  
+}
+.logo-animado{
+    animation-duration: 5s;
+    animation-name: LogoLoop;
+    animation-iteration-count: infinite;
+   }
+ @keyframes LogoLoop{
+    from{
+        -webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+    } 
+    to{
+        -webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+    }
+}
