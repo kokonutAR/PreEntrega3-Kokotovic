@@ -1,0 +1,28 @@
+.superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    padding-top: 50px;
+}
+.comentario{
+    width: 30%;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.retrato__comentario{
+    width: 20%;
+    position: relative;
+    border-radius: 50%; 
+}
+.video-spot{
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
