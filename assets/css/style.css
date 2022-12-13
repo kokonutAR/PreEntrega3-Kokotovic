@@ -67,62 +67,6 @@ header ul {
   align-items: center;
 }
 
-.superior {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px;
-  padding-top: 50px;
-}
-
-.comentario {
-  width: 30%;
-  height: 150px;
-  border: 1px solid;
-  border-radius: 10px;
-  margin: 30px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.retrato__comentario {
-  width: 20%;
-  position: relative;
-  border-radius: 50%;
-}
-
-.video-spot {
-  margin: 10px;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.inferior {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 35px;
-}
-
-.chef__pizza {
-  width: 60%;
-  border-radius: 10px;
-  margin-left: 350px;
-}
-
-.imagen__pizzeria {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.pizza__horno {
-  margin-left: 100px;
-  width: 70%;
-  border-radius: 10px;
-}
-
 footer {
   background-color: bisque;
   display: flex;
@@ -196,14 +140,6 @@ footer ul li a {
   background-color: bisque;
   border-radius: 10px;
   width: 50%;
-}
-
-.galeria-nosotros {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 100px;
-  padding-bottom: 80px;
 }
 
 main section div h2 {
@@ -371,4 +307,35 @@ main section div h2 {
   to {
     transform: rotateY(360deg);
   }
+}
+.superior {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.comentario {
+  width: 30%;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.retrato__comentario {
+  width: 20%;
+  position: relative;
+  border-radius: 50%;
+}
+
+.video-spot {
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
